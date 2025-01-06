@@ -1,0 +1,12 @@
+# ignore everything
+*
+
+# except gitignore
+!.gitignore
+
+# except for all .md files
+!**.md
+
+# except for the reference folder
+!ref/
+!ref/*
