@@ -14,9 +14,9 @@ Donor VIN - 3VWML7AJ8BM631357
 - Intercooler, front mount. Factory radiator core is 20.75W x 18.75H
 	- Move radiator back and mount intercooler in front?
 	- 18x13x3?
-	  ![[../000_transient/Pasted image 20241029184152.png|200]]
+	  ![200](../000_transient/Pasted%20image%2020241029184152.png)
 	- 21x7x2.25?
-	  ![[../000_transient/Pasted image 20241029191704.png|200]]
+	  ![200](../000_transient/Pasted%20image%2020241029191704.png)
 ### Tune
 - Malone Flashzilla Pro
 - Stage 2 tune

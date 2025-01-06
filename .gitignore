@@ -7,6 +7,6 @@
 # except for all .md files
 !**.md
 
-# except for the reference folder
+# except for the reference folder and all the files in it
 !ref/
 !ref/*
