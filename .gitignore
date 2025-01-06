@@ -1,12 +1,19 @@
 # ignore everything
 *
 
-# except gitignore
+# include gitignore
 !.gitignore
 
-# except for all .md files
+# include all .md files
 !**.md
 
-# except for the reference folder and all the files in it
+# include the reference folder and all the files in it
 !ref/
 !ref/*
+
+# ignore .dsstore
+ref/.DS_Store
+
+# ignore rebuild cost & full float parts tracker
+ref/rebuildCost.ods
+ref/fullFloatPartsTracker.ods
