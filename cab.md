@@ -1,0 +1,2 @@
+- [mirror upgrade](https://spottermirror.com/p/toyota/spotter-mirror-for-toyota-fj-cruiser/) for better blind spot mirrors
+- 

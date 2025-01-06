@@ -1,0 +1,3 @@
+- The rear full float is 58.75" with SFA hubs
+- ifs adds 1.375 to each side (***confirm this***)
+- 

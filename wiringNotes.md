@@ -1,0 +1,3 @@
+- ECM = EDC17
+- ??? You have to manually add a pin to the ecu connector. T94 pin 86. I just pulled one of the ones used for dpf stuff then spliced from there. Not sure it's even needed but I added it.
+- Common rails "don't use the k-line"
