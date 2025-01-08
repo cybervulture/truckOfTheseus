@@ -1,5 +1,5 @@
 ## see also
-[drivetrain](drivetrain.md) 
+[drivetrain](drivetrain.md)  
 [toyotaRSeriesNotes](toyotaRSeriesNotes.md)
 ## VF (chain drive) transfer case summary
 The VF series of transfer cases started in 1988 with the VF1 used in V6 applications of the Pickup and 4Runner (Hilux and Hilux Surf in international markets). I don't have any good source that this is the first use but all anecdotal evidence points to this. The VF cases differ from earlier RF cases by use of planetary reduction gears for high/low range selection and a chain driven output for the front output flange. RF cases used traditional gears for both of these functionThere are currently (as of Jan 2025) 4 major versions that have been produced, although not all are in production anymore. There are 3 distinct modes of operation that have been offered over the years, all 3 modes have a high and low range available. All VF cases that came installed to a R150 (or other R series) transmission, A340, or A750 share the same small diameter 23 spline input shaft. If it was installed to a RA60, RA61, RC60, RC61 (newer manual 6 speed) it will use larger diameter 22 spline input shaft ([source](https://www.tacomaworld.com/threads/transfer-case-transfer-cases-in-first-and-2nd-gen-trucks.345652/page-2#post-24959207)). The input shaft can be swapped between certain models of VF transfer case for use with a non-native transmission ([source](https://www.tacomaworld.com/threads/swapping-input-shafts-for-fj-case-for-manual-transmission.714337/)).
@@ -43,7 +43,9 @@ The front half of the VF4 case has the planetary gears that handle the high/low 
 ![vf4amInternalPlanetary](ref/vf4amInternalPlanetary.jpg) 
 The rear half of the case has the 2 shift collars with their associated shift forks. The high/low collar is the one that engages with the planetaries in the front of the case to select high or low. There is also a neutral between high and low, but it is not selectable in the factory configuration through the 4WD system. The differential mode shift collar slides between the differential input gear, differential output gear, and front output flange drive gear. The right side of the following image is the engine side, the shaft on the lower left is where the rear output flange is installed, and the shaft on the top is where the front output flange goes.
 ![vf4amInternalLabels](ref/vf4amInternalLabels.jpeg)
-#### !!!! PUT A PICTURE OF THE GEARS WITHOUT THE SHIFT COLLARS HERE WITH NOTE ABOUT THE BRONZE SHIFT ON THE FLY GEAR!!!!
+The differential input gear, differential output gear, and front output flange drive gear. It is hard to see but there is a bronze bushing between the differential output gear and the front output gear (between the orange and blue boxes), I think this functions as a syncro enables shift-on-the-fly from 2WD to AWD.
+#### ![vf4amInternalNoShiftCollar](ref/vf4amInternalNoShiftCollar.jpeg)
+
 In 2WD the differential input is locked to the differential output by the shift collar while leaving the front output flange drive gear disconnect. This bypasses the differential and the transfer case functions like a part time case.
 ![vf4amInternal2WD](ref/vf4amInternal2WD.jpeg)
 In AWD the front output flange is locked to the differential output gear. Since the differential input gear is part of the rear output flange shaft this allows the front and rear driveshafts to spin at a differential rate, enabling all wheel drive.
@@ -64,7 +66,8 @@ Use the frame codes get detailed parts and diagrams from any of the following so
 - [Amayama](https://www.amayama.com/)
 - [Megazip](https://www.megazip.net)
 - [PartSouq](https://partsouq.com)
-FJ Cruiser w/ RA61F 6 speed and fully manual VF4B
+
+FJ Cruiser w.  RA61F 6 speed and fully manual VF4B
 - GSJ15L
 - reference VIN from salvage site - JTEBU11F970052528)
 4th gen 4Runner w/ 1GRFE, A750, and fully electric VF4AM
