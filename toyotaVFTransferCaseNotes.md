@@ -17,12 +17,14 @@ The VF series of transfer cases started in 1988 with the VF1 used in V6 applicat
 | --------- | ------- | ------- | ------- | --------------------------------------------------------------------------------------------------------- |
 | **VF1**   | x       |         | x       | 3VZ equipped trucks/T4Rs                                                                                  |
 | **VF2**   | x       |         | x       | Basically everything that's 2WD/4WD only (lots of applications in both manual and electric shift options) |
-| **VF3AM** | x       | x       | x       | 3rd gen T4Rs with mulitmode and early 1st gen Sequoias                                                    |
-| **VF4AM** | x       | x       | x       | 4th gen T4R V6 models and late 1st gen sequoia                                                            |
+| **VF3AM** | x       | x       | x       | 3rd gen T4Rs V6 (with mulitmode) and early 1st gen Sequoias                                               |
+| **VF4AM** | x       | x       | x       | 4th gen T4R V6 models and late 1st gen sequoia (2005-2007)                                                |
 | **VF4B**  |         | x       | x       | Manual FJ Cruiser, Fortuner (international), Prado (international)                                        |
 | **VF4BM** |         | x       | x       | 4th gen T4R V8, 5th gen T4R limited, GX470, GX460                                                         |
 ### VF1
 This was the first VF case and is the only one that was produced with a front output flange on the passenger side. It is a part time case and mounts to R150 and A340 transmissions from V6 (3VZFE) 2nd/3rd generation Pickups and 1st/2nd generation 4Runners. All VF1 cases are manually shifted with a lever on the floor of the cab.
+![vf1MountingFlange](ref/r150fToVF1Tailhousing.webp)
+
 ### VF2
 The second VF case which started the tradition of placing the front output flange on the driver side. The VF2 was released with 1st generation Tacoma and 3rd generation 4Runner. Early VF2 cases were manually shifted with a lever on the floor of the cab but starting with the 2nd generation Tacoma most VF2 versions moved to electric shift via dial mounted to the dash. The notable exception to this rule is the VF2 found in automatic FJ Cruisers, which has a manual lever in the center console. The VF2CM is still used today (as of Jan 2025) in all light duty Toyota's with part time 4WD in the North American market. The following table uses sources from forum posts, the specific sub-models (A/B/AM/BM) could be confirmed (but I don't really care to) with a parts diagram for a given production frame number on a parts site ([Amayama](https://www.amayama.com/)/[Megazip](https://www.megazip.net)/[PartSouq](https://partsouq.com)).
 
@@ -73,8 +75,8 @@ FJ Cruiser w.  RA61F 6 speed and fully manual VF4B
 4th gen 4Runner w/ 1GRFE, A750, and fully electric VF4AM
 - GRN215
 - currently no reference vin
-### Required Parts
-The following parts were ordered using the parts diagram for the shifter assembly of a GSJ15L frame FJ Cruiser. All the parts below the red line will be needed with the exception of `90250-10020 - PIN OR ROLLER, SHIFT INTER-LOCK`, which is only necessary if a factory style single shifter will be used. I will be using a twin stick setup to independently control each shift rail.
+### OEM FJ Cruiser Parts
+The following parts were identified from the parts diagram for the shifter assembly of a GSJ15L frame FJ Cruiser. All the parts below the red line are part of the internal shift mechanism
 
 | Part Number | Description                                 | Quantity |
 | ----------- | ------------------------------------------- | -------- |
@@ -95,4 +97,64 @@ The following parts were ordered using the parts diagram for the shifter assembl
 | 90520-13002 | RING, SNAP                                  | 2        |
 ![vf4bShifter](ref/vf4bShifter.jpg)
 ### Conversion Process
-Work in progress, above parts are on order.
+The new shift assemblies are comprised of 3 pieces. 
+	- A new shift rail made from the 15mm rod
+	- A new shift flags, the part with the teeth that engage with the shift lever
+	- An OEM Toyota shift fork
+Each shift assembly has one shift rail with appropriate detent cuts, one shift flag pinned in place, and one shift rail pinned in place.
+#### Parts
+The OEM shift rails are 15mm hardened and ground steel rod. I used 1045 15mm rod from [McMASTERCARR](https://www.mcmaster.com/5615N15) to make the new shift rails. The shift flags are made from 20x50mm 1045 bar stock also from [McMASTERCARR]([6545K205](https://www.mcmaster.com/6545K205)). I reused detent balls, springs, and plugs from a VF1 that I had on hand. The required Toyota parts are in the following table. Of note the `36313-60140 - SHAFT, TRANSFER FRONT DRIVE SHIFT` on the passenger side of the case has a section that is 17mm diameter where the `41408-60030 - FORK SUB-ASSY, CENTER DIFFERENTIAL LOCK` shifting fork installs. For this reason I recommend using a pair of `36302-60190 - FORK, TRANSFER GEAR SHIFT, NO.2` instead as they both fit a 15mm shaft. The shift fork can be difficult parts to source. I tried multiple vendors including [Amayama](https://www.amayama.com), [MegaZip](https://www.megazip.net), [Partsouq](https://partsouq.com), and multiple dealers without any luck before finally placing a successful order through [ToyotaPartsDeal](https://www.toyotapartsdeal.com).
+
+| 36302-60190 | FORK, TRANSFER GEAR SHIFT, NO.2             | 2   |
+| ----------- | ------------------------------------------- | --- |
+| 90311-15008 | SEAL, OIL                                   | 2   |
+| 90341-12014 | PLUG, SHIFT DETENT BALL SPRING              | 2   |
+| 90360-10003 | BALL (FOR 2ND GEAR BUSH)                    | 2   |
+| 90501-16116 | SPRING, COMPRESSION (FOR SHIFT DETENT BALL) | 2   |
+#### Modifications and Fabrication
+##### Front Housing Machining
+The front housing of the VF4 case needs guide holes machined into the front mounting flange for the shift rails to ride in. It is also worth adding a counterbore for seals here too. Early cases like the VF1 did not have shift rail seals but all the later ones do. The following image is a front view sketch of the VF4 looking at the face that mounts to the transmission. It has dimensions in millimeters to place the guide holes relative to the center bore for the input shaft bearing (the 110mm diameter circle). 
+![vfShiftRailLocations](ref/vf4caseShiftRailLocationsFrontView.png)
+
+Setup for machining, note the casting has dimples in the rough location of the guide holes. The casting dimples are accurate to within a couple millimeters but are not accurate enough for drilling, milling is a requirement here.
+![vf4caseMachiningBefore](ref/vf4caseFrontMachiningBefore.jpeg)
+Completed shift rail guide holes with counterbores for the seal. 
+![vf4caseMachiningAfter](ref/vf4caseFrontMachiningAfter.jpeg)
+##### Rear Housing Modification
+The rear housing of the VF4 is already machined from the factory with guides for the shift rails.
+![vf4amRearHousingMachining](ref/vf4amRearHousingMachining.jpg)
+The only modification necessary is drilling and tapping the holes for the detent balls, springs, and plugs. There are preexisting casting holes on the rear housing in the location the detents that can be used as drilling guides for the detent holes. Through drill them at 10mm so the detent ball can drop freely into the shift rail guide holes. Then tap the hole to M12x1.25 at a depth that allows the detent plug to fully thread and seat.
+![vf4caseRearDetentDrilling](ref/vf4caseRearDetentDrilling.jpeg)
+##### Shift Rails
+There are two shift rails, the high/low rail which selects either high range or low range. There cannot be a neutral detent with this system as the detent is too close to the other detents. Toyota addresses this problem the FJ Cruiser VF4B with a different style detent located inside the high/low gear assembly. That system does not appear to be a retrofit option for the VF4AM so another transfer case neutral selection will need to be worked out later. The second shift rail is the drive mode rail, which has detents for 2WD, AWD, and 4WD. In a typical manually operated VF type transfer case the driver side shift rail controls high/low selection and the passenger rail controls 2WD/4WD. However, to fit the additional AWD shift mode in this conversion the shift rails will be opposite this standard. This is because the rear guide pocket on the driver side is deeper than the passenger side and as a result provides clearance for an additional detent. The following drawings show the final locations of the shift rail detents as well as the detent geometry. The detents are shallower than the OEM Toyota detents. The shallower detent is required on the drive mode shift rail to add a 3rd position for AWD and was kept on the high/low shift to ensure a consistent feel for all shifting actions. ![vf4shiftKitDrawings3](ref/vf4shiftKitDrawings3.jpg)
+![vf4shiftKitDrawings3](ref/vf4shiftKitDrawings4.jpg)
+![vf4shiftKitDrawings3](ref/vf4shiftKitDrawings5.jpg)
+Additionally, the drive mode shift rail has a sharp point between two of the detent locations. To prevent gouging and binding in the aluminum housing guides relieve this point (circled in red) slightly.
+![vfCaseShiftRailTopViewForEdgeRelief](ref/vfCaseShiftRailTopViewForEdgeRelief.png)
+##### Shift Flags
+To ease fabrication and assembly, the part of the shift rail that interacts with the shift lever was manufactured separately from the shift rail. These components are called the shift flags and are positioned and pinned in place as the final step in the process. Dimensions are shown in the following drawing.
+![vf4shiftKitDrawings2](ref/vf4shiftKitDrawings2.jpg)
+The lower inner corners (circled in red) may need additional relief to clear the planetary gear assembly. This can be accomplished with either hand tools or machine tools.
+![vfCaseShiftFlagFrontViewForCornerRelief](ref/vfCaseShiftFlagFrontViewForCornerRelief.png)
+##### Shift Rail Assembly
+Each shift rail has a shift fork and a shift flag pinned in place. Because the detent holes are drilled freehand using the raw casting as a guide each shift fork and flag needs to be located and drilled in-situ to account for any deviations from square in the drilled detent holes. Of note, when locating the shift forks ensure the planetary gear output assembly is correctly spaced from the differential assembly. Toyota includes a spacer between these two assemblies, in the following diagram it is part number 36231A.
+![vf4amGears](ref/vf4amGears.jpg)
+However, when fully assembled in the housing the location of the two main gear assemblies is determined by large retaining rings on the shaft bearings. In this particular case the spacer bushing was approximately 2mm too thin to correctly locate the planetary output shaft to the differential input shaft which resulted in incorrectly positioned shift forks. A temporary spacer was fabricated to correctly locate everything while setting the final position of the shift forks and shift flags.
+
+## VF4 Speedometer Adaption
+Many modern Toyota 4x4's pull vehicle speed information from the ABS system and do not include a dedicated vehicle speed sensor anywhere in the drivetrain. For VF4 applications, only the 2005-2007 Sequoia (frame code UCK45L-GKBLKA) FJ Cruisers equipped with a manual transmission (frame code GSJ15L) have a VSS. Any VF4 can be adapted to use a speed sensor or mechanical speedometer drive assembly for a cable speedometer, but the rear transfer case housing extension must be sourced (part number 36105-60040) either from a supplier or a donor Sequoia/FJ Cruiser transfer case. The VF4 family of transfer cases uses a larger rear bearing than the more common VF1/2/3 cases and as a result has a unique housing extension.
+### Transfer Case Housing Extension
+The VF cases all have a housing extension at the back that supports the rear bearing for the main shaft and houses the seals for the drive flange. In VSS equipped models it also houses the gears for the speedometer. The VF4 uses a larger rear bearing than any of the other VF series cases. Since the rear housing provides some support for that bearing this means the VF4 has a unique housing extension. Left is a 2006 VF4 housing extension and right is a 1988 VF1 extension, the VF4 rear bearing is nearly 0.5" larger in diameter. However, the bolt pattern is the same on both parts so either part can bolt onto any VF series case, although it will not have proper bearing support.  
+![vfHousingExtensionComparison](ref/vfHousingExtensionComparison.jpeg)
+### Cable Driven Speedometer vs VSS
+Top is an original 1988 speedometer cable drive assembly from a VF1 transfer case, bottom is a vehicle speed sensor from a 2006 Sequoia. They fit interchangeably in the transfer case housing extension. However the gears are not interchangeable between the two parts.  
+![vfCableSpeedoVSSComparison](ref/vfCableSpeedoVSSComparison.jpeg)
+### Drive Gear Differences
+Although the number of teeth on the worm gear is the same in the two cases, the VF4 uses a slightly larger worm gear paired with a smaller driven gear. Shown below on the left is the VF4 parts with the VF1 parts on the right. There is about 2.5mm of difference in the diameters of the comparable parts between the generations. Unfortunately this means the VF4 worm gear is not compatible with the VF1 driven gear and vice-versa.
+![vfSpeedoWormGearComparison](ref/vfSpeedoWormGearComparison.jpg)
+![vfSpeedoDriveGearComparison](ref/vfSpeedoDriveGearComparison.jpg)
+Note the VF4 worm gear (left) interfaces with the main shaft via a splined section at the front of the gear, where the VF1 gear is smooth (right). The VF1 instead used a ball detent in the main shaft that interfaced with a small notch in the worm gear to ensure it was driven by the main shaft. There is no provision for a ball detent on the VF4.
+![vfWormGearDriveBall](ref/vfWormGearDriveBall.jpeg)
+When the output flange is assembled, with the housing left off for inspection, the entire assembly is in compression and it appears the drive mechanism (either splines or ball detent) is redundant and only there to ensure the worm gear does not slip. With the output flange nut snug (not torqued) it was impossible to fit a 0.001" shim between any of the parts so it is likely the VF1 worm gear will work in a VF4 case without any provision to lock it's rotation to the main shaft as this is not a high-torque system. However for extra security splines can be added to the older VF1 worm gear to replicate they OEM Toyota system.
+![vfWormGearCompression](ref/vfWormGearCompression.jpeg)
+### Adding Splines

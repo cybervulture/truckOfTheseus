@@ -1,5 +1,40 @@
 Donor VIN - 3VWML7AJ8BM631357
-
+# Actual
+## Performance
+- GTD1756VRK ([PerforamceTDI](https://performancetdi.com/shop/gtd1756vrk-turbo-upgrade-tdi/?srsltid=AfmBOorjkl5_ZlLQIuzKeVdrCBEm-vX0maPuxULut15LvTwD0Myx3yjC))
+- ECM immobilizer delete ([KermaTDI](https://kermatdi.com/i-421-immobilizer-delete.html?srsltid=AfmBOoqetASz0q8o7Z50Fm9vAyBxxSjme8orYNu8iacBPCitGS8UUtkO))
+- Tune by Kyle Meister ([TDI Swapped Trucks on FB](https://www.facebook.com/groups/291980407818664))
+- CJAA CP4 HPFP
+- CJAA auxiliary fuel pump
+- `lift pump???
+- DPF/EGR delete
+- `swirl valve delete?`
+## Accessories
+### Toyota
+- 5VZFE AC Compressor (Tacoma/4Runner)
+- 5VZFE Power Steering Pump (Tacoma/4Runner)
+	- Custom remote reservoir adapter
+	- 5VZFE reservoir modified to remote mount
+	- Acts as belt tensioner
+- K040365 Gates Belt (9/16"x37.125")
+- Custom bracket to locate Toyota accessories on lower passenger side of block
+- 3VZFE AC condenser
+### Volkswagen
+- CJAA Alternator
+- Original alternator accessory bracket, trimmed to clear motor mounts
+- `belt???
+## Chassis
+- ALH+ Block side motor mounts ([Doomsday Diesel](https://www.doomsdaydiesel.net/product-page/vw-tdi-alh-diy-motor-mounts))
+- 5VZFE Rubber Isolators (Tacoma/4Runner)
+- 3VZFE Frame side mounts, relocated
+## Cooling
+- CJAA factory oil cooler (water to oil)
+- Generic aftermarket 1KZ-TE 3 row radiator (Frame code KZN130) ([ebay](https://www.ebay.com/itm/253821645658))
+- `intercooler`
+## Wiring
+- DIY stripped OEM CJAA harness (used [VW erWin](https://vw-us.erwin-store.com/erwin/showHome.do) for wiring diagrams)
+---
+# Plans
 ### Turbo
 - Stock = cr140 = bv43 = k03 = 5303 in BorgWarner designation - [source](https://forums.tdiclub.com/index.php?threads/turbo-technical-database.300010/page-13)
 	- Can be clocked?

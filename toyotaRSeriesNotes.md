@@ -16,7 +16,7 @@
 | **notes**                    | pickup / 4runner / 1gen tacoma | pickup / 4runner with 22RE turbo | supra / celica | tacoma 2gen   | tacoma 3gen   | jeeps with the 4.0L I6 |
 ### R150F (1988-1994)
 - *Toyota 31111-35050 Housing, Clutch* is the part number for the early R150F found on 3VZFE Pickups and 4Runners (1988-1994)...photos below are the bell and tailhousing of an early R150F to be used with the VF1 transfer case
-  ![300](bellhousingR150.webp)![200](ref/r150fToVF1Tailhousing.webp)
+  ![300](r150To3vzBellhousing.webp)![200](ref/r150fToVF1Tailhousing.webp)
 
 ### R155F / R156F
 - The *Toyota 31111-26073 Housing, Clutch* is the part for the bellhousing on 2TRFE Tacoma applications (2005-2017), bellhousing and tailhousing are the same on both transmissions...photos below

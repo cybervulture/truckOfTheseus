@@ -1,6 +1,8 @@
 ### see also
 [toyotaRSeriesNotes](toyotaRSeriesNotes.md)
 [toyotaVFTransferCaseNotes](toyotaVFTransferCaseNotes.md)
+[engineSwap](engineSwap.md)
+
 ## engine
 2011 Volkswagen 2.0L TDI (engine code CJAA), sourced from totaled Jetta Sportwagen
 
@@ -13,6 +15,7 @@ Plans
 - DPF delete and tune for compounds
 - injectors or whatever else the engine needs to make the compounds work
 [notes from darkside dev on tuning the BiTDI](https://www.darksidedevelopments.co.uk/Blog/20-bitdi-engines-what-to-know/)
+
 ## transmission - R155F (2nd gen 2TR manual taco) or R156F (3nd gen 2TR manual taco)
 |         | **R150F** XVZ | **R151F** 22RET | **R155F** 2TR Taco | **R156F** 2TR Taco | RA60F (Aisin AY6) 1GR | RA61F 1GR FJC | RC60 (Aisin AC6) Hilux | RC62F (Aisin AC6) 2GR Taco | Amarok BiTDI |
 | ------- | ------------- | --------------- | ------------------ | ------------------ | --------------------- | ------------- | ---------------------- | -------------------------- | ------------ |

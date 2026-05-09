@@ -1,0 +1,4 @@
+- [ ] M8x1.25x10 (crank pulley adapter)
+- [ ] Unknown (core support housing)
+- [ ] Transfer case hardware
+- [ ] 

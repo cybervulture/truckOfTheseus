@@ -1,0 +1,6 @@
+- [ ] transfer case bolts
+- [ ] ac compressor
+- [ ] parking brake line
+- [ ] speedo cable
+- [ ] braided brake lines
+- [ ] 
